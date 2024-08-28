@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="a_inicio">
+                <a href="index.html">
+                    <h1><i>YUMI</i></h1>
+                </a>
+            </div>
+        <hr>
+    </nav>
+    </header> 
+    <h2>Productos</h2>
+    <div class="contenedor">
+        <div class="columna">
+            <input type="text" id="barra-busqueda" placeholder="Buscar productos..." onkeyup="filtrarProductos()">
+            <div id="lista-productos">
+                <!-- Los productos se listarán aquí -->
+            </div>
+        </div>
+
+        <div class="columna">
+            <h1>Carrito de Compras</h1>
+            <div id="elementos-carrito">
+                <!-- Los artículos del carrito se listarán aquí -->
+            </div>
+            <div class="total-carrito">
+                Total de Productos: $<span id="total-carrito">0</span>
+            </div>
+
+            <!-- Selección de Dirección -->
+            <label for="direccion">Selecciona tu dirección de entrega:</label>
+            <select id="direccion" onchange="actualizarEnvio()">
+                <option value="0">Selecciona dirección...</option>
+                <option value="2000">Ciudad (Costo de Envío: $2000)</option>
+                <option value="3000">Suburbio (Costo de Envío: $3000)</option>
+                <option value="4000">Rural (Costo de Envío: $4000)</option>
+            </select>
+
+            <!-- Mostrar Costo de Envío -->
+            <div id="envio" class="total-carrito">
+                Costo de Envío: $<span id="costo-envio">0</span>
+            </div>
+
+            <!-- Mostrar Precio Total -->
+            <div class="total-carrito">
+                Precio Final: $<span id="precio-final">0</span>
+            </div>
+
+            <button id="boton-comprar" onclick="procesarCompra()">Comprar</button>
+
+            <!-- Mensaje de información -->
+            <div id="mensaje"></div>
+        </div>
+    </div>
+
+    <script src="js\cart.js"></script>
+</body>
+</html>
