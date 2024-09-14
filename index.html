@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YUMI</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/img">
     <a href="https://www.flaticon.com/free-icons/buy" title="buy icons"></a>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -21,44 +25,55 @@
                 </div>
         </nav>
         <div class="link">
-            <a href="carrito.html"target="_blank">
-            <img src="css/img/cart.png" height="40" width="40" align="right" hspace="15"alt="Logo de carrito">
-            </a>
+            <img src="css/img/cart.png" height="50" width="50" align="right" hspace="15"alt="Logo de carrito"id="miImagen">          
         </div>
         <hr>
     </header>
-
     <main>
-        <div class="contenedor0">
-            <div class="arrow l" onclick="prev()">
-                <img src="css/img/l.png" alt="">
-            </div>
-            <div class="img img-1">
-                <div class="mostrar">
-                    <h3>Chocotorta</h3>
+        <body>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="css\img\1.jpg" alt="Logo de carrito">          
                 </div>
-            </div>
-            <div class="img img-2">
-                <div class="mostrar">
-                    <h3>Torta Marroc</h3>
+                <div class="swiper-slide">
+                    <img src="css\img\2.jpg" alt="Logo de carrito"> 
                 </div>
-            </div>        
-            <div class="img img-3">
-                <div class="mostrar">
-                    <h3>Vanilla</h3>
+                <div class="swiper-slide">
+                    <img src="css\img\3.jpg" alt="Logo de carrito"> 
                 </div>
+                <div class="swiper-slide">
+                    <img src="css\img\5.jpg" alt="Logo de carrito"> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="css\img\6.jpg" alt="Logo de carrito"> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="css\img\8.jpg" alt="Logo de carrito"> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="css\img\9.jpg" alt="Logo de carrito"> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="css\img\12.jpg" alt="Logo de carrito"> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="css\img\13.jpg" alt="Logo de carrito"> 
+                </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="arrow r" onclick="next()">
-                <img src="css/img/r.png" alt="">
-            </div>
-        </div>
-    </main>
-
-    <footer>
-
-    </footer>
-
+        </main>
     <!-- Acá van los Scripts -->
+    <script>
+        document.getElementById('miImagen').onclick = function() {
+        window.location.href = 'carrito.html';
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script>
     <!-- Acá van los Scripts -->
 </body>
