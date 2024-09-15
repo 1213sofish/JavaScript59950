@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+    position: relative;
+    background: #ece33e;
+}
+
+header hr {
+    color: #000000;
+    border: 1px solid;
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.producto {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+.producto img {
+    width: 150px;
+    height: 150px;
+}
+#carritoIcono {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+#carritoIcono img {
+    width: 50px;
+    height: auto;
+}
+#contadorCarrito {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+#searchInput {
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.contenedor {
+    justify-content: space-between;
+    position: relative;
+    background-color: #aad5f6;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

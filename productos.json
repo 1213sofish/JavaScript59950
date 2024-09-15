@@ -2,81 +2,81 @@
 {
     "nombre": "Chocolate",
     "precio": 4500,
-    "imagen": "css/img/1.jpg"
+    "imagen": "img/1.jpg"
 },
 {
     "nombre": "Chocotorta",
     "precio": 4500,
-    "imagen": "css/img/2.jpg"
+    "imagen": "img/2.jpg"
 },
 {
     "nombre": "Torta de vanilla",
     "precio": 4000,
-    "imagen": "css/img/3.jpg"
+    "imagen": "img/3.jpg"
 },
 {
     "nombre": "Torta de fruto rojo",
     "precio": 4500,
-    "imagen": "css/img/4.jpg"
+    "imagen": "img/4.jpg"
 },
 {
     "nombre": "Tarta de vanilla",
     "precio": 4000,
-    "imagen": "css/img/5.jpg"
+    "imagen": "img/5.jpg"
 },
 {
     "nombre": "Torta fraisier",
     "precio": 5000,
-    "imagen": "css/img/6.jpg"
+    "imagen": "img/6.jpg"
 },
 {
     "nombre": "Torta bombóm",
     "precio": 5000,
-    "imagen": "css/img/8.jpg"
+    "imagen": "img/8.jpg"
 },
 {
     "nombre": "Pastel de tortilla",
     "precio": 4500,
-    "imagen": "css/img/9.jpg"
+    "imagen": "img/9.jpg"
 },
 {
     "nombre": "Torta personalizada",
     "precio": 6000,
-    "imagen": "css/img/10.jpg"
+    "imagen": "img/10.jpg"
 },
 {
     "nombre": "Budín",
     "precio": 4000,
-    "imagen": "css/img/11.jpg"
+    "imagen": "img/11.jpg"
 },
 {
     "nombre": "Budín de chocolate",
     "precio": 4500,
-    "imagen": "css/img/12.jpg"
+    "imagen": "img/12.jpg"
 },
 {
     "nombre": "Budín de dulce leche",
     "precio": 4500,
-    "imagen": "css/img/13.jpg"
+    "imagen": "img/13.jpg"
 },
 {
     "nombre": "Budín",
     "precio": 4000,
-    "imagen": "css/img/14.jpg"
+    "imagen": "img/14.jpg"
 },
 {
     "nombre": "Budín de vanilla",
     "precio": 4000,
-    "imagen": "css/img/15.jpg"
+    "imagen": "img/15.jpg"
 },
 {
     "nombre": "Budín de fruto rojo",
     "precio": 4500,
-    "imagen": "css/img/16.jpg"
+    "imagen": "img/16.jpg"
 },
 {
     "nombre": "Budín de frutilla",
     "precio": 4500,
-    "imagen": "css/img/17.jpg"
+    "imagen": "img/17.jpg"
 }
 ]
